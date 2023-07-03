@@ -1,4 +1,8 @@
-branches:
+name: Main Taski workflow
+
+on:
+  push:
+    branches:
       - main
 
 jobs:
